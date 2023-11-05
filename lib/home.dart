@@ -88,7 +88,7 @@ class HomeScreen extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => const CounterScreen()));
+                            builder: (context) => CounterScreen()));
                   },
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
